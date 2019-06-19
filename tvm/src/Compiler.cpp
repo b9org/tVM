@@ -1,8 +1,5 @@
 #include "tvm/Compiler.hpp"
 
-#include <cassert>
-#include <cstring>
-
 namespace tvm {
 
 Compiler::Compiler(const std::vector<Instruction> &instructions)

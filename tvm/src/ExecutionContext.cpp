@@ -1,8 +1,6 @@
 #include "tvm/ExecutionContext.hpp"
 #include "tvm/VirtualMachine.hpp"
 
-#include <cassert>
-
 namespace tvm {
 
 ExecutionContext::ExecutionContext(VirtualMachine &virtualMachine,
