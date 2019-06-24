@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 
 project(tVM
-	LANGUAGES C CXX
+	LANGUAGES CXX
 	VERSION 0.0.1
 )
 

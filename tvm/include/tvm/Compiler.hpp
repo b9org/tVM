@@ -5,6 +5,8 @@
 
 #include <sys/mman.h>
 #include <vector>
+#include <memory>
+#include <cstring>
 
 namespace tvm {
 
@@ -40,7 +42,7 @@ struct CodeCache {
    */
 
   void writeToCodeCache(const unsigned char * machineCode){
-    memcpy(start_, machineCode, size_);
+    std::memcpy(start_, machineCode, size_);
   }
 
   /**
