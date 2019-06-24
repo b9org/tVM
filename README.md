@@ -1,5 +1,7 @@
 # tVM
 
+[![Build Status](https://travis-ci.org/b9org/tVM.svg?branch=master)](https://travis-ci.org/b9org/tVM)
+
 tVM is a very simple stack-based virtual machine meant to educate how a
 language VM works.
 
